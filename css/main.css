@@ -1,0 +1,138 @@
+@font-face{
+    font-family: "QAQ"; 
+    src: url(CloudShuiZhuGBK.ttf);
+}
+@font-face{
+	font-family: "HHH3";
+	src: url(華康儷粗宋斜.ttc);
+}
+@font-face{
+	font-family: "HHH2";
+	src: url(華康海報體斜.ttf);
+}
+@font-face{
+	font-family: "ppppp";
+	src: url(方正博雅方刊宋_GBK.TTF);
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background-color: gray;
+}
+#Site{
+	height: 100%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+#header{
+	height: 25%;
+}
+#Left{
+	width: 20%;
+	height: 70%;
+	float: left;
+	background-color: #c1b261;
+	z-index: 10000;
+}
+#content{
+	margin-left: 20%;
+	width: 80%;
+	height: 70%;
+	background-color: #fdf7ef;
+	overflow: auto;
+}
+#footer img{
+	box-sizeing: border-box;
+	position: absolute;
+	height: 5%;
+	width: 50%;
+	left: 25%;
+}
+nav {
+	position: absolute;
+	margin: 0 auto;
+	z-index: 40;
+}
+.mainMenu{
+	position: absolute;
+	width: 50%;
+	height: 5%;
+	top: 20%;
+    background-color: #654200;
+}
+.mainMenu ul{
+    margin: 0;
+}
+.mainMenu li {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	border-right: 1px solid #654200;
+	font-family: QAQ;	
+	font-size: 140%;
+}
+.mainMenu li:hover {
+	background-color: #b09e7c;
+}
+.mainMenu li:last-child {
+	border-right: 0px solid #654200;
+}
+.mainMenu li a {
+	color: #FFF;
+	font-size: 110%;
+	text-decoration: none;
+	height: 51px;
+	line-height: 51px;
+	padding: 0px 20px;	
+}
+#HD1,#HD2,#HD3{
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 50%;
+	height: 25%;
+	z-index: 11;
+}
+#HD3{
+	width: 20%;
+	height: 15%;
+	left: 26.5%;
+	top: 1.5%;
+}
+#OAO{
+	padding-top: 60%;
+}
+#content p{
+	position: relative;
+}
+.title p{
+	float:left;
+	left:2%;
+	margin-top:1%;
+}
+#start{
+	margin: 0 10%;
+	text-align: left;
+}
+table td{
+	border: 1px solid;
+	font-family: "ppppp";
+}
+td{
+	width: 5%;
+}
+h2{
+	text-align: center;
+	margin-top: 8%;
+}
+#content p,h4{
+	font-family: "ppppp";
+}
+#content h2{
+	font-family: "HHH2";
+}
+#content h3{
+	font-family: "HHH3";
+}
