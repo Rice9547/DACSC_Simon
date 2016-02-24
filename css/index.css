@@ -1,0 +1,21 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-size: contain;
+    background-color: #ded2c1;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+#Link{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 27%;
+    z-index: 2;
+}
+#Link img{
+    width: 50%;
+    margin-top: 8%;
+}
